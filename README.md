@@ -8,16 +8,27 @@ This repository consists of all my courseworks and projects from Object Oriented
 
 Files in each folder:
 -`.devcontainer`: This folder defines configuration for a development container, designed to provide a consistent and pre-configured environment.
+
 -`.github`: Github related stuffs are in this folder.
+
 -`.vscode`: This folder stores the visual studio code's specific project settings, configurations, and other environment configurations.
+
 -`src`: This folder stores the code for solving the problem given in that `PA`. In this folder, it will contain `.h` file(s), `.cpp` file(s), and `.exe` files.
+
   - `.h`: These are called "header" files. They are basically the prototype or declaration for methods or classes that I will use in `.cpp` files.
+  
   - `.cpp`: There are 2 types of `.cpp` in the `src` folder. There are `main.cpp`, and `function_name or class_name.cpp`.
+  
       - `function_name or class_name.cpp`: This is where I actually define the functions or classes that I declared in `.h` files.
+      
       - `main.cpp`: This is where I test the functions, classes, methods, etc. I'm just testing to make sure that the things that I've made actually works.
+  
   - `.exe`: These are executable files created when running the files where I test the functions, classes, and such. Usually, `main.exe` would get created because I test the `main.cpp`              file.
+
 -`data`: Some folder will have the data folder. The data folder stores text files or any other files needed for the program.
+
 -`.gitignore`: Tells github to ignore certain files in the folder.
+
 -`README.md`: In each folder there will be a `README` file. These are the instructions needed to solve the problems in each `PA`.
 
 NOTE: Each `PA`s uses an autograder to grade my answers. By committing and pushing my new code in the file, the autograder will check if I've done the process correctly or not. Hence that reason, the folders would have `.devcontainer` and `.github`. You can safely ignore these file because they are most likely for the other github repository that has an autograder. In addition, each `PA` will have "TODO/TASKS" in the `README` file which will give you guidelines and instructions to solve the problem.
