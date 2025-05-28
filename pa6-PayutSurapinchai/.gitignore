@@ -1,0 +1,17 @@
+*.exe
+main
+testaddressGetters_test
+addressSetters_test
+addressIstream_test
+addressOstream_test
+petGetters_test
+petSetters_test
+petIstream_test
+petOstream_test
+personGetters_test
+personSetters_test
+personIstream_test
+personPetSearch_test
+personPetAdd_test
+personPetDelete_test
+personOstream_test

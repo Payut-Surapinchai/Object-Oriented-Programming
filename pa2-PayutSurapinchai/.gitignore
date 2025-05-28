@@ -1,0 +1,12 @@
+*.exe
+main
+testdefaultConstructorGetters_test
+titleAuthorConstructorGetters_test
+fullConstructorGetters_test
+defaultConstructorSetters_test
+titleAuthorConstructorSetters_test
+fullConstructorSetters_test
+estimatedBookWeight_test
+estimatedReadingTime_test
+setBook_test
+displayBook_test

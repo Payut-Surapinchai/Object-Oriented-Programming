@@ -1,0 +1,12 @@
+*.exe
+main
+testgenerateArray_test
+reverseArray_test
+rotateArray_test
+findElement_test
+sortArray_test
+addElements_test
+filterElements_test
+printElements_test
+scaleElements_test
+splitString_test

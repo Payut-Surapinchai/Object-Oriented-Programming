@@ -1,0 +1,164 @@
+{
+  "tests": [
+    {
+      "name": "Welcome Message",
+      "setup": "chmod a+x tests/Autograder_Welcome_Msg",
+      "run": "./tests/Autograder_Welcome_Msg",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": null
+    }
+    ,{
+      "name": "addressGetters_test",
+      "setup": "g++ -std=c++14 src/Address.cpp  tests/gtest_main.a tests/addressGetters_test.o -lpthread -o addressGetters_test",
+      "run": "./addressGetters_test",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 4
+    }
+    ,{
+      "name": "addressSetters_test",
+      "setup": "g++ -std=c++14 src/Address.cpp  tests/gtest_main.a tests/addressSetters_test.o -lpthread -o addressSetters_test",
+      "run": "./addressSetters_test",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 6
+    }
+    ,{
+      "name": "addressIstream_test",
+      "setup": "g++ -std=c++14 src/Address.cpp  tests/gtest_main.a tests/addressIstream_test.o -lpthread -o addressIstream_test",
+      "run": "./addressIstream_test",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 6
+    }
+    ,{
+      "name": "addressOstream_test",
+      "setup": "g++ -std=c++14 src/Address.cpp  tests/gtest_main.a tests/addressOstream_test.o -lpthread -o addressOstream_test",
+      "run": "./addressOstream_test",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 4
+    }
+    ,{
+      "name": "petGetters_test",
+      "setup": "g++ -std=c++14 src/Pet.cpp src/Date.cpp tests/gtest_main.a tests/petGetters_test.o -lpthread -o petGetters_test",
+      "run": "./petGetters_test",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 4
+    }
+    ,{
+      "name": "petSetters_test",
+      "setup": "g++ -std=c++14 src/Pet.cpp src/Date.cpp tests/gtest_main.a tests/petSetters_test.o -lpthread -o petSetters_test",
+      "run": "./petSetters_test",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 6
+    }
+    ,{
+      "name": "petIstream_test",
+      "setup": "g++ -std=c++14 src/Pet.cpp src/Date.cpp tests/gtest_main.a tests/petIstream_test.o -lpthread -o petIstream_test",
+      "run": "./petIstream_test",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 6
+    }
+    ,{
+      "name": "petOstream_test",
+      "setup": "g++ -std=c++14 src/Pet.cpp src/Date.cpp tests/gtest_main.a tests/petOstream_test.o -lpthread -o petOstream_test",
+      "run": "./petOstream_test",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 4
+    }
+    ,{
+      "name": "personGetters_test",
+      "setup": "g++ -std=c++14 src/Person.cpp src/Address.cpp src/Pet.cpp src/Date.cpp tests/gtest_main.a tests/personGetters_test.o -lpthread -o personGetters_test",
+      "run": "./personGetters_test",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 4
+    }
+    ,{
+      "name": "personSetters_test",
+      "setup": "g++ -std=c++14 src/Person.cpp src/Address.cpp src/Pet.cpp src/Date.cpp tests/gtest_main.a tests/personSetters_test.o -lpthread -o personSetters_test",
+      "run": "./personSetters_test",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 6
+    }
+    ,{
+      "name": "personIstream_test",
+      "setup": "g++ -std=c++14 src/Person.cpp src/Address.cpp src/Pet.cpp src/Date.cpp tests/gtest_main.a tests/personIstream_test.o -lpthread -o personIstream_test",
+      "run": "./personIstream_test",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 6
+    }
+    ,{
+      "name": "personPetSearch_test",
+      "setup": "g++ -std=c++14 src/Person.cpp src/Address.cpp src/Pet.cpp src/Date.cpp tests/gtest_main.a tests/personPetSearch_test.o -lpthread -o personPetSearch_test",
+      "run": "./personPetSearch_test",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 4
+    }
+    ,{
+      "name": "personPetAdd_test",
+      "setup": "g++ -std=c++14 src/Person.cpp src/Address.cpp src/Pet.cpp src/Date.cpp tests/gtest_main.a tests/personPetAdd_test.o -lpthread -o personPetAdd_test",
+      "run": "./personPetAdd_test",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 6
+    }
+    ,{
+      "name": "personPetDelete_test",
+      "setup": "g++ -std=c++14 src/Person.cpp src/Address.cpp src/Pet.cpp src/Date.cpp tests/gtest_main.a tests/personPetDelete_test.o -lpthread -o personPetDelete_test",
+      "run": "./personPetDelete_test",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 10
+    }
+    ,{
+      "name": "personOstream_test",
+      "setup": "g++ -std=c++14 src/Person.cpp src/Address.cpp src/Pet.cpp src/Date.cpp tests/gtest_main.a tests/personOstream_test.o -lpthread -o personOstream_test",
+      "run": "./personOstream_test",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 4
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+*.exe
+main
+testmonthlySpending_test
+calculateSavingsInBudget_test
+calculateSavingsOverBudget_test
+isOverBudget_test
+calculateMonthsToSaveInt_test
+calculateMonthsToSaveFloat_test

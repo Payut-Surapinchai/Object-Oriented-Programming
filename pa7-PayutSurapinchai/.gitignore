@@ -1,0 +1,8 @@
+*.exe
+main
+testsimpleLoanConstructorsGetters_test
+simpleLoanMontlhlyPayment_test
+amortizedLoanConstructorsGetters_test
+amortizedLoanMontlhlyPayment_test
+displayLoan_test
+saveLoan_test

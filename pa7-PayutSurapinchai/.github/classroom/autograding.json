@@ -1,0 +1,74 @@
+{
+  "tests": [
+    {
+      "name": "Welcome Message",
+      "setup": "chmod a+x tests/Autograder_Welcome_Msg",
+      "run": "./tests/Autograder_Welcome_Msg",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": null
+    }
+    ,{
+      "name": "simpleLoanConstructorsGetters_test",
+      "setup": "g++ -std=c++14 src/Loan.cpp src/SimpleLoan.cpp  tests/gtest_main.a tests/simpleLoanConstructorsGetters_test.o -lpthread -o simpleLoanConstructorsGetters_test",
+      "run": "./simpleLoanConstructorsGetters_test",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 5
+    }
+    ,{
+      "name": "simpleLoanMontlhlyPayment_test",
+      "setup": "g++ -std=c++14 src/Loan.cpp src/SimpleLoan.cpp  tests/gtest_main.a tests/simpleLoanMonthlyPayment_test.o -lpthread -o simpleLoanMontlhlyPayment_test",
+      "run": "./simpleLoanMontlhlyPayment_test",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 20
+    }
+    ,{
+      "name": "amortizedLoanConstructorsGetters_test",
+      "setup": "g++ -std=c++14 src/Loan.cpp src/AmortizedLoan.cpp  tests/gtest_main.a tests/amortizedLoanConstructorsGetters_test.o -lpthread -o amortizedLoanConstructorsGetters_test",
+      "run": "./amortizedLoanConstructorsGetters_test",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 5
+    }
+    ,{
+      "name": "amortizedLoanMontlhlyPayment_test",
+      "setup": "g++ -std=c++14 src/Loan.cpp src/AmortizedLoan.cpp  tests/gtest_main.a tests/amortizedLoanMonthlyPayment_test.o -lpthread -o amortizedLoanMontlhlyPayment_test",
+      "run": "./amortizedLoanMontlhlyPayment_test",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 20
+    }
+    ,{
+      "name": "displayLoan_test",
+      "setup": "g++ -std=c++14 src/Loan.cpp src/SimpleLoan.cpp src/AmortizedLoan.cpp  tests/gtest_main.a tests/displayLoan_test.o -lpthread -o displayLoan_test",
+      "run": "./displayLoan_test",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 15
+    }
+    ,{
+      "name": "saveLoan_test",
+      "setup": "g++ -std=c++14 src/Loan.cpp src/SimpleLoan.cpp src/AmortizedLoan.cpp  tests/gtest_main.a tests/saveLoan_test.o -lpthread -o saveLoan_test",
+      "run": "./saveLoan_test",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 15
+    }
+  ]
+}
